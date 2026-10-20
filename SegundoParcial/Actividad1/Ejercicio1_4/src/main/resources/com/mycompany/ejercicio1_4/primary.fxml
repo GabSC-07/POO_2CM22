@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="380.0" prefWidth="250.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ejercicio1_4.PrimaryController">
+   <children>
+      <Pane prefHeight="380.0" prefWidth="250.0">
+         <children>
+            <Label layoutX="17.0" layoutY="14.0" text="Tabla del:" />
+            <Button fx:id="btnCalcular" layoutX="125.0" layoutY="19.0" onAction="#calcular" prefHeight="25.0" prefWidth="71.0" text="Calcular" />
+            <TextField id="txtNumero" fx:id="txtNumero" layoutX="17.0" layoutY="41.0" prefHeight="25.0" prefWidth="51.0" />
+            <Button fx:id="btnLimpiar" layoutX="125.0" layoutY="60.0" onAction="#limpiar" prefHeight="25.0" prefWidth="71.0" text="Limpiar" />
+            <TextArea id="txtResultados" fx:id="txtResultados" layoutX="5.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0" editable="false" />
+         </children>
+      </Pane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

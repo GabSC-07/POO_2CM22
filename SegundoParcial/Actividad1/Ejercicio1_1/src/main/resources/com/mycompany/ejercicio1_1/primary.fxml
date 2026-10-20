@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="270.0" prefWidth="500.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ejercicio1_1.PrimaryController">
+   <children>
+      <Pane>
+         <children>
+            <Label id="lblNacimiento" layoutX="40.0" layoutY="47.0" prefHeight="17.0" prefWidth="156.0" text="Fecha de Nacimiento:" />
+            <Button id="btnCalcular" fx:id="primaryButton" layoutX="40.0" layoutY="101.0" onAction="#calcular" prefHeight="28.0" prefWidth="103.0" text="CALCULAR" />
+            <TextArea fx:id="txtFecha" layoutX="196.0" layoutY="37.0" prefHeight="38.0" prefWidth="230.0" promptText="dd/mm/aaaa" />
+            <Button id="btnLimpiar" fx:id="primaryButton1" layoutX="187.0" layoutY="101.0" onAction="#limpiar" prefHeight="28.0" prefWidth="103.0" text="LIMPIAR" />
+            <TextArea fx:id="txtEdad" editable="false" layoutX="63.0" layoutY="159.0" prefHeight="38.0" prefWidth="325.0" />
+         </children>
+      </Pane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
